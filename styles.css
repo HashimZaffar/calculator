@@ -5,6 +5,8 @@ width: 300px;
 border: none;
 border-radius: 50px;
 display: flex;
+flex-direction: column;
+
 justify-content: center;
 align-items: center;
 margin: auto;
@@ -23,6 +25,25 @@ width: 200px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 background-color: #ea0b00;
 
+
+}
+
+
+.container input{
+
+margin-top: 30px;
+height: 30px;
+width: 195px;
+border-radius: 10px;
+
+
+}
+
+.container input::placeholder{
+
+padding: 20px;
+align-self: stretch;
+color: black;
 
 }
 
